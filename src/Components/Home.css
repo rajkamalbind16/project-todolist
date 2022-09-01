@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+.container{
+    margin: auto;
+    min-height: 100vh;
+    background-color: aquamarine;
+    min-height: 100vh;
+    padding: 4vmax;
+    width: 70%;
+      
+}
+.container > form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+input,textarea,btn{
+    margin: 5px 0;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 1px red;
+    padding: 5px;
+
+
+}
+.btn{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(159, 159, 159);
+    color: rgb(245, 240, 240);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+.task{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: black;
+}
+.task > div{
+    width: 100%;
+}
+.task > button{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+
+}
+.task > button:hover{
+     background-color: tomato;
+     color: blue;
+     cursor: pointer;
+}
+
+
